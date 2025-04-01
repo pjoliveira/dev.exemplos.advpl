@@ -9,7 +9,7 @@ Este repositório é uma coleção dos meus estudos em desenvolvimento de softwa
 - Projetos práticos que desenvolvi para aplicar e consolidar meus conhecimentos.
 - Experimentos com novas tecnologias e ferramentas.
   
-### 🌱 O que estou aprendendo
+### 🌱 O que tem no respositório
 Atualmente, estou aprimoranfo meus conhecimentos e você encontrará alguns estudos sobre esses tópicos:
 - Relatorios TReport(),
 - Telas MVC,
