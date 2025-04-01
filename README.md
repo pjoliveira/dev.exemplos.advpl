@@ -13,6 +13,7 @@ Este repositório é uma coleção dos meus estudos em desenvolvimento de softwa
 Atualmente, estou aprimoranfo meus conhecimentos e você encontrará alguns estudos sobre esses tópicos:
 - Relatorios TReport(),
 - Telas MVC,
+- Funções e Mensagens,
 - Integrações API REST,
 - Docker Compose. 
 
