@@ -10,7 +10,7 @@ Este repositório é uma coleção dos meus estudos em desenvolvimento de softwa
 - Experimentos com novas tecnologias e ferramentas.
   
 ### 🌱 O que tem no respositório
-Atualmente, estou aprimoranfo meus conhecimentos e você encontrará alguns estudos sobre esses tópicos:
+Atualmente você encontrará alguns estudos desenvolvidos sobre esses tópicos:
 - Relatorios TReport(),
 - Telas MVC,
 - Funções e Mensagens,
@@ -18,9 +18,9 @@ Atualmente, estou aprimoranfo meus conhecimentos e você encontrará alguns estu
 - Docker Compose. 
 
 ### 📂 Estrutura do repositório
-- Cada pasta neste repositório representa um tópico de estudo. 
+- Cada pasta neste repositório representa um assunto. 
 - Dentro de cada pasta, você encontrará o código do projeto.
-- e também, um README que documenta algumas observaçõe.
+- e também, um README com algumas observações.
 
 ### 📫 Entre em contato comigo
 - Se você tiver alguma dúvida ou apenas quiser conversar, sinta-se à vontade para me enviar uma mensagem! 
