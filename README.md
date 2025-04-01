@@ -12,9 +12,9 @@ Este repositório é uma coleção dos meus estudos em desenvolvimento de softwa
 ### 🌱 O que estou aprendendo
 Atualmente, estou aprimoranfo meus conhecimentos e você encontrará alguns estudos sobre esses tópicos:
 - Relatorios TReport(),
-- Telas em MVC,
-- Web API,
-- Compose Docker. 
+- Telas MVC,
+- Integrações API REST,
+- Docker Compose. 
 
 ### 📂 Estrutura do repositório
 - Cada pasta neste repositório representa um tópico de estudo. 
