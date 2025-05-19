@@ -1,4 +1,4 @@
-# dev.exemplos.advpl
+# dev.exemplos.advpl 
 
 ### 👋 Portfólio de Estudos de Software 
 Olá! Este é o meu repositório onde compartilho meus projetos de aprendizado. 
@@ -9,17 +9,18 @@ Este repositório é uma coleção dos meus estudos em desenvolvimento de softwa
 - Projetos práticos que desenvolvi para aplicar e consolidar meus conhecimentos.
 - Experimentos com novas tecnologias e ferramentas.
   
-### 🌱 O que estou aprendendo
-Atualmente, estou aprimoranfo meus conhecimentos e você encontrará alguns estudos sobre esses tópicos:
+### 🌱 O que tem no respositório
+Atualmente você encontrará alguns estudos desenvolvidos sobre esses tópicos:
 - Relatorios TReport(),
-- Telas em MVC,
-- Web API,
-- Compose Docker. 
+- Telas MVC,
+- Funções e Mensagens,
+- Integrações API REST,
+- Docker Compose. 
 
 ### 📂 Estrutura do repositório
-- Cada pasta neste repositório representa um tópico de estudo. 
+- Cada pasta neste repositório representa um assunto. 
 - Dentro de cada pasta, você encontrará o código do projeto.
-- e também, um README que documenta algumas observaçõe.
+- e também, um README com algumas observações.
 
 ### 📫 Entre em contato comigo
 - Se você tiver alguma dúvida ou apenas quiser conversar, sinta-se à vontade para me enviar uma mensagem! 
