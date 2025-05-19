@@ -1,0 +1,19 @@
+#include "totvs.ch"
+#include "tlpp-core.th"
+/*/{Protheus.doc} ExecutaTestes
+executa a rotina compilada nela
+@type function
+@version 12.1.2410
+@author paulo
+@since 16/05/2025
+@return logical, .t. se executou
+/*/
+User Function ExecutaTestes() as logical
+    Local lRet as Logical
+
+    lRet := .T. 
+
+    u_CnpjaExecutaTeste()
+
+
+Return(lRet)
