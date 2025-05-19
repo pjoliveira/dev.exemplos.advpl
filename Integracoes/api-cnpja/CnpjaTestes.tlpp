@@ -1,0 +1,43 @@
+#include "totvs.ch"
+#include "tlpp-core.th"
+
+using namespace Cnpja.Controle
+
+/*/{Protheus.doc} CnpjaTestes
+Executa o teste de chamada da API CNPJA.COM
+    @type function
+    @version 12.1.2310
+    @author paulo
+    @since 3/04/2025
+    @return variant, .true se a chamada for bem sucedida, .false se não for
+/*/
+User Function CnpjaTestes()
+    Local lRet as Logical
+    Local oControle as Object
+    Local cMeuCep as Character
+
+    lRet := .F.
+    cMeuCep := "15505118"
+
+    oControle := nil
+    oControle := Cnpja.Controle():New()    
+    // oControle:SetStrategyCacheRefresh()
+
+    lRet := oControle:ConsultarCEP(cMeuCep)
+
+    If oControle:oServicoCep:cRetornoStatus == "200 OK" 
+
+        cDataUpdate := oControle:oServicoCep:cDataUpdate // "updated": "2025-03-11T00:00:00.000Z"
+        cCodigo := oControle:oServicoCep:cCodigo             // "code": "15505118"
+        cBairro := oControle:oServicoCep:cBairro             // "district": "Parque Residencial do Lago"
+        cCidade := oControle:oServicoCep:cCidade             // "city": "Votuporanga"
+        cEstado := oControle:oServicoCep:cEstado             // "state": "SP"
+        cMunicipioCodigo := oControle:oServicoCep:cMunicipioCodigo    // "municipality": 3557105
+        cNumero := oControle:oServicoCep:cNumero             // "number": null
+
+    EndIf 
+
+    FreeObj(oControle)
+
+	
+Return(lRet)
