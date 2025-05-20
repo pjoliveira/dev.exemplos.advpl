@@ -1,0 +1,37 @@
+#include "totvs.ch"
+#include "tlpp-core.th"
+#include "tlpp-rest.th"
+
+//=====================================================================================
+// FWCodEmp - PJ Oliveira - Maio 2019
+//-------------------------------------------------------------------------------------
+//Descrição
+// executando as funcoes FWCodEmp e FWCompanyName
+//-------------------------------------------------------------------------------------
+//Parametros
+// nil
+//-------------------------------------------------------------------------------------
+//Retorno
+// nil
+//=====================================================================================
+
+NAMESPACE custom.testedefuncoes.FWCodEmp
+
+/*/{Protheus.doc} FWCodEmp
+Retorna o codigo da empresa e o nome da empresa
+    @type function
+    @version 12.1.2310
+    @author paulo
+    @since 01/04/2025
+    @return variant, nil
+/*/
+User Function FWCodEmp()
+    
+    Local lRet     := nil
+    Local cCodEmp  := FWCodEmp()
+    Local cNameEmp := FWEmpName(cCodEmp)
+ 
+    MsgInfo( 'FWCodEmp - FWEmpName : ' + cCodEmp + " - " + cNameEmp, 'ADVPL' )
+
+ 
+Return( lRet )
