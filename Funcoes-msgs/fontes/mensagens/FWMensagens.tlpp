@@ -1,0 +1,26 @@
+#Include "TOTVS.ch"
+ 
+/*/{Protheus.doc} TesteAlert
+exemplos de uso das mensagens de alerta
+@type function
+@version 12.1.2410
+@author pjoliveira
+@since 01/01/2024
+@return logical, .t. se executou
+/*/ 
+User Function TesteAlert()
+    Local lRet as Logical
+
+    lRet := .T.
+
+    FWAlertError("Mensagem de erro", "Título FWAlertError")
+    FWAlertExitPage("Mensagem de navegação de página", "Título FWAlertExitPage")
+    FWAlertHelp("Mensagem do problema", "Mensagem da solução - FWAlertHelp")
+    FWAlertInfo("Mensagem informativa", "Título FWAlertInfo")
+    FWAlertNoYes("Mensagem de pergunta Não / Sim", "Título FWAlertNoYes")
+    FWAlertSuccess("Mensagem de sucesso", "Título FWAlertSuccess")
+    FWAlertWarning("Mensagem de aviso", "Título FWAlertWarning")
+    FWAlertYesNo("Mensagem de pergunta Sim / Não", "Título FWAlertYesNo")
+    
+    
+Return(lRet)
