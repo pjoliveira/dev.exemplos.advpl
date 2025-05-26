@@ -2,7 +2,7 @@
 #include "FwMvcDef.ch"
 
 /*/{Protheus.doc} sbmCad
-tela de demonstração de cadastro simples em mvc
+tela de demonstração de cadastro simples em mvc MODELO 1
     @type function
     @version 12.1.2410
     @author pjoliveira
